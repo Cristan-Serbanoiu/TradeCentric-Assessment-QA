@@ -17,7 +17,7 @@ Make sure you have the following software installed on your system:
 ### Installation
 
 1. Clone this repository to your local machine:
-``` git clone https://github.com/Cristan-Serbanoiu/TradeCentric-Assessment.git ```
+``` git clone [https://github.com/Cristan-Serbanoiu/TradeCentric-Assessment.git](https://github.com/Cristan-Serbanoiu/TradeCentric-Assessment-QA.git) ```
 
 
 2. Navigate to the project directory and install dependencies (use Terminal)
