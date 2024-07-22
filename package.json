@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "cypress": "^13.13.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "elements:radio": "cypress run --headless --browser chrome --spec 'cypress/e2e/1.Elements-Group/DQA-EL-RADIO.cy.js'",
+    "elements:webtables": "cypress run --headless --browser chrome --spec 'cypress/e2e/1.Elements-Group/DQA-EL-WEBT.cy.js'",
+
+    "widgets:accordian": "cypress run --headless --browser chrome --spec 'cypress/e2e/2.Widgets-Group/DQA-WDS-ACC.cy.js'",
+    "widgets:datepicker": "cypress run --headless --browser chrome --spec 'cypress/e2e/2.Widgets-Group/DQA-WDS-DATEP.cy.js'",
+    "widgets:progressbar": "cypress run --headless --browser chrome --spec 'cypress/e2e/2.Widgets-Group/DQA-WDS-PBAR.cy.js'",
+    "widgets:slider": "cypress run --headless --browser chrome --spec 'cypress/e2e/2.Widgets-Group/DQA-WDS-SLI.cy.js'",
+    "widgets:tabs": "cypress run --headless --browser chrome --spec 'cypress/e2e/2.Widgets-Group/DQA-WDS-TABS.cy.js'"
+  }
+}

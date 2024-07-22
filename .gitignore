@@ -1,0 +1,14 @@
+#IGNORE NODE MODULES
+node_modules
+
+#IGNORE .ENV FILE
+.env
+
+#IGNORE VIDEOS
+cypress/videos
+
+#IGNORE SCREENSHOTS
+cypress/screenshots
+
+#IGNORE PRETTIER DOCUMENT FORMATTING
+.prettierrc
